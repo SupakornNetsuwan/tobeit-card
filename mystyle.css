@@ -1,0 +1,23 @@
+ @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;300;400;500;600;700;800;900&display=swap');  /* Import font CDN */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 247, 248);
+    font-family: 'Prompt', sans-serif;
+}
+
+card {
+    padding: 2em;
+    margin:1em;
+    background-color: white;
+    border-radius: 0.35em;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
