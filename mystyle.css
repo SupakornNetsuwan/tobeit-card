@@ -27,6 +27,17 @@
      padding: 2em;
  }
 
+ .img {
+    margin: 2em;
+	background-repeat: no-repeat;
+    text-align: center;
+
+    /* background-size: contain; */
+ }
+
+ .topic {
+    color: rgb(18, 105, 219);
+}
  .my-blog>h2 {
      color: rgb(18, 105, 219);
  }
