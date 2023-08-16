@@ -4,9 +4,11 @@ const visitFigma = () => {
     counter++; // ทุกครั้งที่ Function นี้ถูกเรียกใช้ ค่าของ counter จะเพิ่มขึ้น 1
     const topic = document.getElementById("blog-topic");
     const content = document.getElementById("blog-content");
-
-    topic.innerHTML = "This is a fake Figma! 📝";
-    content.innerHTML = "Today we're going to use figma for designing your first webapge. <br/>clicked time is " + counter;
+    const header = document.getElementsByClassName("topic");
+   
+    topic.innerHTML = "ผัดกระเพราใส่ใจไม่ได้อะไร! 📝";
+    content.innerHTML = "กดปุ่มไปอีกกี่ทีเขาก็ยังไม่มองหรอก  😥. <br/>กดไปทำไมตั้ง " + counter + " ครั้งหละ.";
+    header.innerHTML = "12345 ปาฉลามขึ้นบก"
 
     topic.style.color = "black"
 }
